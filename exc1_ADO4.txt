@@ -1,0 +1,101 @@
+ex1
+
+import java.util.Scanner;
+
+ public class DiaDaSemana{
+	public static void main(String[] args) {
+	
+
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.print("Digite um numero de 1 a 7:");
+	int dia = scanner.nextInt();
+    
+    
+    switch (dia) {
+    case 1:
+        System.out.println("Domingão");
+        break;
+        
+    case 2:
+        System.out.println("Segundo-feiro");
+        break;
+    
+    case 3:
+        System.out.println("Terça-feiro");
+        break;
+        
+    case 4:
+        System.out.println("Quarta-feiro");
+        break;
+        
+    case 5:
+        System.out.println("Quinto-feiro");
+        break;
+        
+    case 6:
+        System.out.println("Sexto-feiro");
+        break;
+        
+    case 7:
+        System.out.println("Sabadão");
+        break;
+        
+    default:
+        System.out.println("Valor inválido!");
+    }
+    
+    scanner.close();
+    
+    
+	 }
+   }
+
+
+------------------------------------------------------------------------------------------------------------
+exc 2
+
+import java.util.Scanner;
+
+ public class MultiplaEscolha{
+	public static void main(String[] args) {
+
+	Scanner scanner = new Scanner(System.in);
+	
+	//// Exibe as perguntas e as opções de resposta
+	System.out.println("Qual linguagem de programação estamos utilizando em aula...");
+	System.out.println("\n<a> Java");
+	System.out.println("<b> Javascript");
+	System.out.println("<c> Photophea");
+	System.out.println("<d> Python");
+	System.out.println("<e> Nenhuma das Anteriores");
+	
+	//// Solicita a resposta do usuário
+	System.out.print("Digite a letra da resposta escolhida:");
+	char resposta = scanner.next().charAt(0);
+	
+	switch (resposta){
+	    case'a':
+	    case'A':
+	    System.out.println("Resposta correta!");
+	    break;
+	    
+	    case 'b':
+	    case 'B':
+	    case 'c':
+	    case 'C':
+	    case 'd':
+	    case 'D':
+	    case 'e':
+	    case 'E':
+	    System.out.println("Resposta Incorreta!");
+	    break;
+	    default:
+	     System.out.println("Opção inválida, tente novamente!");
+	     
+	     
+		}
+		scanner.close();
+      }   
+      
+   }

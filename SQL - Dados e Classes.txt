@@ -1,0 +1,30 @@
+ PRIMARY KEY (ID) - Busca o ID de identificação unica no banco de dados
+
+1 - Alfanumerico 
+	° char (100)
+	° varchar (300)
+	° varchar2
+
+2 - Numérico
+	° Int ou Integer
+	° float
+	° double
+
+3 - Data
+	° date (DD/MM/AAAA - MM/DD/AAAA - AAAA/MM/DD)		
+
+4 - Hora
+	° time (HH.MM.SS)
+
+ 
+
+5 - Data + Hora
+	° date time (DD/MM/AAAA - HH.MM.SS)
+
+6 - Imagem
+	° Blob ou Flob
+
+7 - Verdadeiro ou falso
+	° Boolean ou Boleano
+
+* Oracle: plataforma usada por empresas para subirem seus bancos de dados (paga)
