@@ -1,0 +1,9 @@
+mySQL
+
+/* = para criar nloco de comentario
+
+# = comentario de linha unica
+
+
+senha banco de dados senac:
+P@$$w0rd
