@@ -14,5 +14,6 @@ salario double not null default '0',
 deprt varchar(100) not null,
 data_admisao datetime);
 
-select * from func
-select idFunc
+# Mostrar todas as linhas de uma tabela
+SELECT * FROM func; 
+SELECT idFunc, nome FROM func;
