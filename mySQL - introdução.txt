@@ -7,3 +7,21 @@ mySQL
 
 senha banco de dados senac:
 P@$$w0rd
+===========================22/05/2025=========================
+Funções Update + Delete
+
+Update = substitui informações selecionaveis de uma tabela
+Sintaxe basica:
+	UPDATE nome_da_tabela
+	SET coluna1 = valor1, coluna2 = valor2, ...
+	WHERE condição;
+
+Delete = Deleta registros em um banco de dado
+Sintaxe basica:
+	DELETE FROM nome_da_tabela
+	WHERE condição;
+
+
+*não esquecer clausula WHERE
+
+**Data prova P2 05/06/2025
