@@ -1,6 +1,6 @@
 drop database if exists curso_mysql_senac_1_semestre_2025;
 create database curso_mysql_senac_1_semestre_2025;
-use curso_mysql_senac_1_semestre_2025;
+use curso_mysql_senac_1_semestre_2025; 
 
 show databases;
 
