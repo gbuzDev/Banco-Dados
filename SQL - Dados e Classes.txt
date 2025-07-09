@@ -1,4 +1,4 @@
- PRIMARY KEY (ID) - Busca o ID de identificação unica no banco de dados
+ PRIMARY KEY (ID) - Busca o ID de identificação unica no banco de dados 
 
 1 - Alfanumerico 
 	° char (100)
